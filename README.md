@@ -25,3 +25,6 @@ Add these scripts to package.json:
 Deploy:
 npm run deploy
 
+=====================
+npm install react-redux
+npm install @reduxjs/toolkit

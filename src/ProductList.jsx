@@ -259,8 +259,8 @@ function ProductList({ onHomeClick }) {
         setShowCart(false);
     };
 
-    const [ setAddedToCart] = useState({});
-    // const [addedToCart, setAddedToCart] = useState({});
+    // const [ setAddedToCart] = useState({});
+    const [, setAddedToCart] = useState({});
     const handleAddToCart = (product) => {
         dispatch(addItem(product)); // Dispatch the action to add the product to the cart (Redux action)
 
